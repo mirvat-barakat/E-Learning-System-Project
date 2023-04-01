@@ -10,7 +10,9 @@
   "license": "ISC",
   "keywords": [],
   "dependencies": {
+    "ddenv": "^0.1.1",
     "express": "^4.18.2",
+    "mongose": "^0.0.2-security",
     "nodemon": "^2.0.22"
   }
 }
