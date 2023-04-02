@@ -8,8 +8,8 @@ exports.enroll = async(req, res)=>{
     if (alreadyEnrolled) return res.status(409).json({ message: "Student already enrolled" })
 
     const enrollment = new Enrollment();
-    Enrollment.user_id= user_id;
-    Enrollment.course_id = course_id;
+    enrollment.user_id= user_id;
+    enrollment.course_id = course_id;
     await enrollment.save();
 
     res.status(201).json(enrollment);
