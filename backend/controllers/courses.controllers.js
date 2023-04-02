@@ -14,3 +14,10 @@ exports.addClass= async(req, res)=>{
     await course.save();
     res.status(201).json({message:"Course is added successfully."})
 }
+
+exports.getAllCourses= async(req, res)=>{
+    const courses= await Course.find();
+
+    res.json(courses)
+}
+
