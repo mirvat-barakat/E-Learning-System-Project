@@ -7,6 +7,9 @@ app.use(express.json())
 const authRouter = require("./routes/auth.routes")
 app.use('/auth', authRouter)
 
+const enrollmentRouter = require("./routes/enrollment.routes")
+app.use('/enrollment', enrollmentRouter)
+
 
 app.listen(process.env.PORT, (err) => {
     if (err) console.error(err)
