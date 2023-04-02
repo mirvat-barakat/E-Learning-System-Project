@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .navButtons {
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    align-items: center;
+  } 
+
+  .buttons {
+    border-radius: 20px;
+    background-image: linear-gradient(90deg, rgb(66, 232, 255), rgb(151, 0, 154));
+    color: aliceblue;
+    width: 30%;
+    height: 80%;
+    padding: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .disabled {
+    display: none;
+  }
