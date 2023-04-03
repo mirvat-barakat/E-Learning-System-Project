@@ -1,15 +1,15 @@
 import React from "react";
 import NavBar from "../../Components/NavBar";
-import Login from "../../Components/login"
+import Register from "../../Components/register"
 
-const LoginPage = () => {
+const RegisterPage = () => {
     return (
         <div>
            <NavBar />
-           <Login />
+           <Register />
 
         </div>
     );
 };
 
-export default LoginPage;
+export default RegisterPage;

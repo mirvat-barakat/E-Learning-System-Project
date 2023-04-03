@@ -1,0 +1,30 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 30%;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 10%;
+  }
+
+  .login-container input[type="text"],
+.login-container input[type="email"],
+.login-container input[type="password"] {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+}
+
+.login-container button[type="submit"] {
+    background-color: var(--dark_purple);
+    margin-left: 28%;
+    color: white;
+    border: 1px solid var(--dark_purple);
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
